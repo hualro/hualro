@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Hugo Alvarado's Webpage</title>
+  </head>
+  <body class="d-flex flex-column h-100">
+
+    <main role="main" class="flex-shrink-0">
+      <div class="container">
+        <h1 class="mt-5">Hugo Alvarado</h1>
+        <p class="lead">Blog</p>
+
+        <div class="blog-entry">
+          <h2>Why Python</h2>
+          <h5>Hugo Alvarado, June 13, 2020</h5>
+          <span class="space"></span>
+          <p>
+            I have been a Java developer my entire career, at school, we used to have Sun Microsystems' terminals in the library and that's where I spent most of my time. My first development language was C, then C++ but then Java quickly caught my attention because it was easier to write programs and could do this Object-Oriented programming everybody was talking about so I quickly fell in love with it.
+            I still love Java, but, sometimes I feel the need to learn something new, I like data analysis and I see Python is the language of choice for a lot of professionals. In the company I am currently working on, there is a team that is using Python for web development instead of the default tech stack, I have noticed how fast they go which has me wondering how are they doing it.
+            I'm excited to begin this journey and I hope I can find all the answers to my questions.
+          </p>
+          <div class="space">
+            <p>Oh! and by the way, the text selection changes color on the paragraph above. This is also a paragraph but it does not change. Also, when printing, the button and the menu below do not show up.</p>
+          </div>
+
+          <!-- th class screen only does not show up when printing, I am also using a bootstrap button component -->
+          <div class="screen-only">
+            <button type="button" onclick="window.print()" name="button" class="btn btn-primary" title="The menu below should not appear when pritning">Print</button>
+          </div>
+        </div>
+
+        <!-- I dont want to show the menu when printing the page -->
+        <ul class="screen-only">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </main>
+
+    <footer class="footer mt-auto py-3">
+        <div class="container text-center">
+          <small class="copyr">Hugo Alvarado 2020</small>
+          <br>
+          <small><a href="https://github.com/hualro">Github</a> </small>
+        </div>
+    </footer>
+
+  </body>
+</html>
